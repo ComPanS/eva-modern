@@ -3,10 +3,16 @@
   "version": 1,
   "sourceUrl": "https://eva-ulitsa-krajnova.clients.site/",
   "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/eva-modern",
-  "phase": "LOCAL_QA",
+  "phase": "COMPLETE",
   "source": { "openingClassification": "profile site", "mobileStatus": "limited", "identity": "Eva, Vladimir, ulitsa Kraynova, 5" },
   "routes": { "implemented": ["/"], "deferred": ["/prices", "/reviews", "/gallery"] },
   "assets": { "logoPresent": true, "sourceImagesRendered": 5 },
-  "local": { "preview": "pending" },
-  "publication": { "authorized": false }
+  "local": { "preview": "http://127.0.0.1:5187/" },
+  "publication": {
+    "authorized": true,
+    "repositoryUrl": "https://github.com/ComPanS/eva-modern",
+    "pagesUrl": "https://compans.github.io/eva-modern/",
+    "verified": true
+  },
+  "postPublication": { "clientMessagePrepared": true }
 }
