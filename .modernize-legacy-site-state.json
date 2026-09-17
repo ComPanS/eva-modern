@@ -1,12 +1,12 @@
 {
   "skill": "modernize-legacy-site",
   "version": 1,
-  "sourceUrl": "https://eva-ulitsa-krajnova.clients.site/",
+  "sourceUrl": "https://yandex.ru/maps/org/schastlivyye_lyudi/85991187208/",
   "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/eva-modern",
   "phase": "COMPLETE",
-  "source": { "openingClassification": "profile site", "mobileStatus": "limited", "identity": "Eva, Vladimir, ulitsa Kraynova, 5" },
+  "source": { "openingClassification": "maps card", "mobileStatus": "present", "identity": "Счастливые люди, Владимир, улица Крайнова, 5" },
   "routes": { "implemented": ["/"], "deferred": ["/prices", "/reviews", "/gallery"] },
-  "assets": { "logoPresent": true, "sourceImagesRendered": 5 },
+  "assets": { "logoPresent": true, "sourceImagesRendered": 5, "formerProfileAssetsExcluded": true },
   "local": { "preview": "http://127.0.0.1:5187/" },
   "publication": {
     "authorized": true,

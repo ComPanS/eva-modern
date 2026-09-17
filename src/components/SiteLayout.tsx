@@ -11,8 +11,8 @@ export function SiteLayout() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Eva, в начало">
-          <img src={`${import.meta.env.BASE_URL}images/eva-logo.png`} alt="Eva" />
+        <a className="brand" href="#top" aria-label="Счастливые люди, в начало">
+          <img src={`${import.meta.env.BASE_URL}images/schastlivye-logo.jpg`} alt="Счастливые люди" />
         </a>
         <nav aria-label="Навигация по странице">
           {navigation.map(({ to, label }) => <a key={to} href={to}>{label}</a>)}

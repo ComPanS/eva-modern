@@ -6,11 +6,11 @@ export type Service = {
 }
 
 export const site = {
-  name: 'Eva',
-  shortName: 'Eva',
+  name: 'Счастливые люди',
+  shortName: 'Счастливые люди',
   locale: 'ru',
-  tagline: 'Красота, в которой легко быть собой',
-  description: 'Салон красоты во Владимире: волосы, ногти и забота о себе в одном месте.',
+  tagline: 'Место, где создают счастливые перемены',
+  description: 'Салон красоты во Владимире: волосы, ногти и бьюти-ритуалы с вниманием к вашему образу.',
   contact: {
     phone: '+7 (960) 726-47-86',
     email: '',
@@ -19,24 +19,24 @@ export const site = {
   },
   bookingUrl: 'https://dikidi.ru/400871',
   mapsUrl: 'https://yandex.ru/maps/org/schastlivyye_lyudi/85991187208/',
-  vkUrl: 'https://vk.ru/eva_studio33',
+  vkUrl: '',
 }
 
 export const services: Service[] = [
-  { slug: 'hair', title: 'Волосы', summary: 'Стрижки, окрашивание и укладки с вниманием к форме и состоянию волос.' },
-  { slug: 'nails', title: 'Ногти', summary: 'Маникюр, педикюр, наращивание и мужской ногтевой сервис.' },
-  { slug: 'curls', title: 'Химическая и биозавивка', summary: 'Индивидуально подбираем технику под структуру волос и желаемый эффект.', price: 'от 2 000 ₽' },
-  { slug: 'home', title: 'Выезд на дом', summary: 'Запись на услугу с выездом доступна по предварительной договорённости.' },
+  { slug: 'hair', title: 'Волосы', summary: 'Стрижки, окрашивание, укладки и уходовые процедуры.', price: 'от 1 200 ₽' },
+  { slug: 'nails', title: 'Ногти', summary: 'Маникюр, педикюр, наращивание и мужской ногтевой сервис.', price: 'от 1 200 ₽' },
+  { slug: 'curls', title: 'Кудри', summary: 'Химическая и биозавивка с подбором техники под структуру волос.', price: 'от 3 500 ₽' },
+  { slug: 'brows', title: 'Брови', summary: 'Архитектура, окрашивание и коррекция бровей.', price: 'от 1 300 ₽' },
 ]
 
 export const gallery = [
-  { src: `${import.meta.env.BASE_URL}images/eva-gallery-1.jpg`, alt: 'Интерьер и рабочая зона Eva' },
-  { src: `${import.meta.env.BASE_URL}images/eva-gallery-2.jpg`, alt: 'Деталь оформления салона Eva' },
-  { src: `${import.meta.env.BASE_URL}images/eva-gallery-3.jpg`, alt: 'Рабочее место в салоне Eva' },
+  { src: `${import.meta.env.BASE_URL}images/schastlivye-gallery-1.jpg`, alt: 'Интерьер и рабочая зона салона' },
+  { src: `${import.meta.env.BASE_URL}images/schastlivye-gallery-2.jpg`, alt: 'Деталь оформления салона' },
+  { src: `${import.meta.env.BASE_URL}images/schastlivye-gallery-3.jpg`, alt: 'Рабочее место мастера' },
 ]
 
 export const reviews = [
-  { quote: 'Внутри очень уютно, чисто, играет приятная музыка.', author: '_de_lusio_' },
-  { quote: 'Пожелания услышаны на 100% — очень аккуратно и внимательно.', author: 'Женя' },
-  { quote: 'Пока сидишь с краской, параллельно можно сделать маникюр.', author: 'Александра Кейли' },
+  { quote: 'Всегда выхожу довольная, сияющая, с морем положительных эмоций.', author: 'Julia♡' },
+  { quote: 'Каждый этап стрижки обсуждался — движения были отточенными и аккуратными.', author: 'PandaVio' },
+  { quote: 'В салоне уютная атмосфера, приятная музыка, вежливый персонал.', author: 'Елена Валерьевна' },
 ]
